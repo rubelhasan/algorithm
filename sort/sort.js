@@ -21,6 +21,5 @@ var sort_object={
 		return quick_sort.action(arr);
 	}
 
-
 }
 module.exports=sort_object;
