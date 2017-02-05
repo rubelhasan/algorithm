@@ -16,8 +16,7 @@ function addData(data){
 	console.log(sorted);
 	 	// var bainary_search=search.bainarySearch(data,3);
 	 	// var linear_search=search.linearSearch(data,30);
-		// var jump_search=search.jumpSearch(data,3);
-	 //console.log(linearSearch);
+
 }
 
 

@@ -1,10 +1,10 @@
- var box=[10,20,30,30,50,60,70,80,90,100,110,120];
-  var item_size=30;
-  var start_index=0;
-  var end_index=box.length-1;
-  console.log("Box : ","item_size:",item_size);
-  var box_count= bainarySearch(box,start_index,end_index,item_size);
-  console.log(box_count);
+var box=[10,20,30,30,50,60,70,80,90,100,110,120];
+var item_size=30;
+var start_index=0;
+var end_index=box.length-1;
+//console.log("Box : ","item_size:",item_size);
+var box_count= bainarySearch(box,start_index,end_index,item_size);
+//console.log(box_count);
 
 function bainarySearch(arr,start_index,end_index,item){
         if (start_index<=end_index){
