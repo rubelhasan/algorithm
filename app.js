@@ -12,10 +12,11 @@ fs.readFile(filePath, {encoding: 'utf-8'}, function(err,data){
     }
 });
 function addData(data){
-	//var sorted=sort.bubbleSort(data);
+	var sorted=sort.selectionSort(data);
+	console.log(sorted);
 	 	// var bainary_search=search.bainarySearch(data,3);
 	 	// var linear_search=search.linearSearch(data,30);
-		var jump_search=search.jumpSearch(data,3);
+		// var jump_search=search.jumpSearch(data,3);
 	 //console.log(linearSearch);
 }
 
